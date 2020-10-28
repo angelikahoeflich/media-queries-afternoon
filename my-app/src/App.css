@@ -5,16 +5,28 @@
   list-style: none;
 }
 
+body{
+  background-image: url('./Pictures/header-bg.jpg');
+  background-size: 400px;
+  position: absolute;
+  background-position: no-repeat;
+ 
+}
+
+/* Navigation Bar */
 .logo{
   background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/navbar-logo.svg');
   background-repeat: no-repeat;
 }
 
-.nav-list{
-  display:flex;
-  
-}
-
 nav{
   display:flex;
+}
+
+.nav-list{
+  display:flex;
+}
+
+.nav-item{
+  font-size: 100%;
 }

@@ -16,14 +16,14 @@ render(){
       <div className="header-container">
       <nav>
         
-      <img className="logo" alt=''/>
+      <img className="logo" alt='logo'/>
       
             <ul className='nav-list'>
-              <li>Services</li>
-              <li>Portfolio</li>
-              <li>About</li>
-              <li>Team</li>
-              <li>Contact</li>
+              <li className="nav-item">Services</li>
+              <li className="nav-item">Portfolio</li>
+              <li className="nav-item">About</li>
+              <li className="nav-item">Team</li>
+              <li className="nav-item">Contact</li>
             </ul>
         </nav>
       </div>
