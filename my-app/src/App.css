@@ -21,6 +21,7 @@ body{
 
 nav{
   display:flex;
+  justify-content: space-between;
 }
 
 .nav-list{
@@ -28,5 +29,6 @@ nav{
 }
 
 .nav-item{
-  font-size: 100%;
+  font-size: 40%;
+  color:white;
 }
