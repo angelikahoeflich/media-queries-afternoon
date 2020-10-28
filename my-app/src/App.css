@@ -17,15 +17,17 @@
 
 /* Navigation Bar */
 .logo{
-  height:20px;
-  width: 30px;
+  height: 35px;
 }
 .header-container{
  background-color:rgb(39, 39, 39);
+
 }
 nav{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
 .nav-list{
@@ -33,6 +35,7 @@ nav{
 }
 
 .nav-item{
-  font-size: 20%;
+  font-size: 110%;
   color:white;
+  margin-left: 2em;
 }
