@@ -10,6 +10,7 @@
 body{
   background-image: url(./Pictures/header-bg.jpg);
   background-size: cover;
+  
 }
 
 /* navigation bar */
@@ -76,4 +77,30 @@ body{
  /* text-align: center; */
  margin:auto;
 
+}
+
+.hidden-btn{
+  display: none;
+  padding:10px;
+}
+
+.logo-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 990px){
+  .hidden-btn{
+    display: block;
+  }
+  .nav-bar{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .list{
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
