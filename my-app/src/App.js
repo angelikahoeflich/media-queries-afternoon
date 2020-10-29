@@ -14,10 +14,8 @@ class Header extends Component{
 render(){
   return (
     <header>
-      <div className="header-container">
-      <nav>
-        
-      <img className="logo" src={logo} alt='logo'/>
+      <nav> 
+        <img className="logo" src={logo} alt='logo'/>
             <ul className='nav-list'>
               <li className="nav-item">Services</li>
               <li className="nav-item">Portfolio</li>
@@ -26,8 +24,6 @@ render(){
               <li className="nav-item">Contact</li>
             </ul>
         </nav>
-      </div>
-
   </header>
   );
 }};

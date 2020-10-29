@@ -7,25 +7,29 @@
   font-family: 'Roboto', sans-serif;
 }
 
-/* body{
+body{
   background-image: url('./Pictures/header-bg.jpg');
-  background-size: 400px;
   background-repeat: no-repeat;
-  background-size: contain;
+
+  background-size: cover;
  
-} */
+}
 
 /* Navigation Bar */
 .logo{
-  height:20px;
-  width: 30px;
+  margin-left: 3em;
+  height:35px;
+  
 }
 .header-container{
- background-color:rgb(39, 39, 39);
+ /* background-color:rgb(39, 39, 39); */
 }
 nav{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding:10px;
+  background-color:rgb(39, 39, 39);
 }
 
 .nav-list{
@@ -33,6 +37,8 @@ nav{
 }
 
 .nav-item{
-  font-size: 20%;
+  font-size: 110%;
   color:white;
+  margin-left: 2em;
 }
+
